@@ -1,0 +1,73 @@
+.wrapper {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.form__label {
+    color: var(--gray-dark);
+}
+
+.form__alertBlock {
+    transition: 0.5s ease;
+    font-size: 20px;
+    height: 60px;
+    width: 25%;
+    opacity: 0;
+    position: fixed !important;
+    right: 15px;
+    bottom: 0;
+}
+
+.form__alertBlock.visible {
+    opacity: 1;
+}
+
+/* .form__alertBlock button {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    cursor: default;
+}
+
+.form__alertBlock.visible button {
+    cursor: pointer;
+}
+
+.form__alertBlock button::before {
+    content: "Close";
+    position: absolute;
+    left: 8px;
+    top: -3px;
+} */
+
+.form__alertBlock button {
+    cursor: default !important;
+    margin-top: 3px;
+}
+
+.form__alertBlock.visible .close {
+    cursor: pointer !important;
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+.modal-header button {
+    position: relative;
+    left: -10px;
+    top: -12px;
+}
+
+.modal-title.h4 {
+    text-align: center;
+}
+
+.modal-body img {
+    width: 130px;
+    height: 130px;
+    margin: 20px 0 0 50%;
+    transform: translateX(-50%);
+}
